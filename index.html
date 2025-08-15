@@ -8,9 +8,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="portfolio.css">
+   <script src="https://kit.fontawesome.com/77643b93ae.js" crossorigin="anonymous"></script>
 </head>
 <body class="open-sans-normal">
-    <header class="header">
+    <header class="header secondary-bg" >
       <nav>
          <h3 class="nav-title">Ma<span class="primary-text">r</span>y</h3>
         <ul>
@@ -28,8 +29,8 @@
                 <h4 class="greeting  dark-2" >Hi , I am</h4>
                 <h1 class="title" >Mary Hardy</h1>
                 <p class="description" >Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <button class="btn-primary" >Download</button>
-                <button class="btn-primary" >Contact</button>
+                <button class="btn-primary" > <i class="fa-solid fa-download"></i>Download</button>
+                <button class="btn-primary" ><i class="fa-solid fa-phone"></i>Contact</button>
             </div>
             <img class="banar-image" src="images/hardy.png" alt="">
         </div>
@@ -90,10 +91,87 @@
              </div>
         </section>
 
+        <div class="resume-container">
+            <!-- .resume-column*2>h3.resume-column-title+.experiance*3>h4.experience-title+h5.experience-subtitle+.experience-description -->
+             <div class="resume-column">
+                <h3 class="resume-column-title">My Education</h3>
+                <div class="experiance">
+                    <h4 class="experience-title">Master in Computer Engineering</h4>
+                    <h5 class="experience-subtitle">Harvard University / 2015 - 2017</h5>
+                    <div class="experience-description">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                </div>
+                <hr>
+                <div class="experiance">
+                    <h4 class="experience-title">Master in Computer Engineering</h4>
+                    <h5 class="experience-subtitle">Harvard University / 2015 - 2017</h5>
+                    <div class="experience-description">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                </div>
+                <hr>
+                <div class="experiance">
+                    <h4 class="experience-title">Master in Computer Engineering</h4>
+                    <h5 class="experience-subtitle">Harvard University / 2015 - 2017</h5>
+                    <div class="experience-description">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                </div>
+             </div>
+             <div class="resume-column">
+                <h3 class="resume-column-title">My Experience</h3>
+                <div class="experiance">
+                    <h4 class="experience-title">Sr. Font End Developer</h4>
+                    <h5 class="experience-subtitle">Apple Inc / 2020 - Current</h5>
+                    <div class="experience-description">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                </div>
+                <hr>
+                <div class="experiance">
+                    <h4 class="experience-title">Jr. Font End Developer</h4>
+                    <h5 class="experience-subtitle">Dribbble Inc / 2018 - 2022</h5>
+                    <div class="experience-description">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                </div>
+                <hr>
+                <div class="experiance">
+                    <h4 class="experience-title">HTML Developer</h4>
+                    <h5 class="experience-subtitle">Adobe Inc / 2017 - 2018</h5>
+                    <div class="experience-description">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                </div>
+             </div>
+             
+        </div>
+        <div  style="text-align: center; margin: 30px;">
+            <button class="btn-primary"><i class="fa-solid fa-download"></i>Download CV</button>
+        </div>
+
     </main>
-    <footer>
+    <footer class="secondary-bg">
+        <div class="footer-column">
+            <h3 class class="footer-title">Lets Connect</h3>
+            <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div>
+                <a href=""> <img src="images/icons/facebook.png" alt=""> </a>
+                <a href=""><img src="images/icons/insta.png" alt=""> </a>
+                <a href=""><img src="images/icons/twitter.png" alt=""> </a>
+            </div>
+        </div>
+        
+        <div class="footer-column">
+            <h3 class="footer-title">Let’s Message me</h3>
+            <input type="text" placeholder="Your Name"> <br> <br>
+            <input type="text" placeholder="Your Email"> <br> <br>
+            <textarea name="" id="" cols="15" rows="5" placeholder="Write message"></textarea>
+         
+           
+        </div>
+        
+
 
 
     </footer>
+    <div style="text-align: center;">
+            <button class="btn-primary">Submit</button>
+        </div>
 </body>
 </html>

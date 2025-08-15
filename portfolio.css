@@ -32,8 +32,10 @@ nav{
     padding: 18px 36px;
     border-radius: 5px;
     border: none;
+     cursor: pointer;
 
 }
+
 nav ul li {
     list-style: none;
     margin-right: 51px;
@@ -136,10 +138,57 @@ main{
     padding: 30px;
     box-shadow: 0 6px 50px 0 #868484;
     margin-top: 33px;
+}
     
 
 
+.resume-container{
+    display: flex;
+    margin-top: 84px;
 }
+.resume-column{
+    padding: 71px ;
+}
+
+.experience-description{
+    font-size: 18px;
+    color: #757575;
+    gap: 20px;
+}
+.resume-column-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    gap: 20px;
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color:#757575 ;
+    gap: 20px;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+footer{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+    
+}
+.footer-column{
+ padding: 130px 230px ;
+}
+.btn-primary :hover{
+    background-color: aqua;
+}
+footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    
+}
+
 
 
 
