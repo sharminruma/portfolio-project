@@ -57,6 +57,10 @@ nav ul{
 
 
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .baner{
     display: flex;
     justify-content: space-between;
@@ -84,6 +88,38 @@ nav ul{
     height: 676;
 }
 
+.about{
+    background-color: #FFF8F3;
+    border-radius: 18px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px ;
+  
 
 
+}
+
+
+.about-items{
+    display: inline-block;
+    justify-content: space-around;
+    margin: 0 18px;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.about-details{
+    font-size: 18px;
+    color: #757575;
+}
+.item-description{
+    font-weight: bold;
+    color: black;
+}
+.item-title{
+    font-size: 20px;
+    color:#757575 ;
+}
 
